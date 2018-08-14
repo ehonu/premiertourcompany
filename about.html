@@ -1,0 +1,65 @@
+<html>
+<link rel ="stylesheet"
+type ="text/css"
+href = "file:///C:/Users/Rodeas%20Limited/OneDrive/Xammp/htdocs/Sam/genstylesheet.css">
+
+<script type="text/javascript" src= "C:\Users\Rodeas Limited\OneDrive\Xammp\htdocs\jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src= "C:\Users\Rodeas Limited\OneDrive\Xammp\htdocs\sam\script.js"></script>
+
+
+
+<body>
+
+
+    <div id=image1> <img src="menubt.jpg" width="20px" height="20px" > </div>
+     <hr></hr>
+
+      <script>
+$('#image1').click(function() {
+  var first = true;
+            var $sh = $('.sh');
+            if ($sh.is(':visible')) {
+                // Slide away
+                $sh.animate({left: -($sh.outerWidth() + 3)}, function() {
+                    $sh.hide();
+                });
+            }
+            else {
+                // Slide in
+                $sh.show().css("left", -($sh.outerWidth() + 10)).animate({left: 0});
+            }
+            });
+ </script>
+
+<ul class=sh>
+  <li class="fade" onclick="location.href='hp.html'">Home</li>
+  <li class="fade" onclick="location.href='.html" >Package</li>
+  <li class="fade" onclick="location.href='.html">About</li>
+  <li class="fade" onclick="location.href='.html">Contact</li>
+</ul>
+ 
+<script>
+
+$( "li.fade" ).hover(function() {
+ 
+  $( this ).next()
+          
+          .slideToggle();
+});
+</script>
+
+
+
+
+     </div>
+
+
+
+      <div class=image2>  </div>
+
+
+
+      <h1> <img src="C:\Users\Rodeas Limited\OneDrive\Xammp\htdocs\sam\logo.bmp">Premier Tour </h1>
+
+     <box>
+ <div  id=start>

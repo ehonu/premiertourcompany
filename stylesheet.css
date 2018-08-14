@@ -1,0 +1,218 @@
+
+
+iframe {
+background-image: ;
+
+  width: 300px;
+  height: 300px;
+  overflow-x: scroll;
+ float:right;
+}
+
+body {background-image: 
+    url("beach.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+
+  }
+
+.box{
+
+position: inline-block;
+}
+	
+}
+
+div.image1{
+	 
+	background-color: white;
+	
+
+	float right;
+	padding: 15;
+	border-color: 5px ;
+	background-color: orange;
+	position:static;
+text-decoration-color: rgba(222);
+text-decoration-style: solid;
+}
+
+
+#image2{
+	color: #746d6a;
+  font-size: 13px;
+  font-weight: bold;
+  vertical-align: top;
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+
+
+
+}
+
+}
+
+body {
+
+	background-color: white;
+	font-family:"Arial ", black; 
+}
+
+
+
+
+	 #banner{
+	width: 1000;
+	height: 200;
+		padding: ;
+		background-color: transparent;
+        float:right; 
+        position: relative;
+
+		border-color: transparent;
+		margin: 10;
+		border-bottom:2px solid black; 
+		border-top: 2px solid black
+	}
+	
+		 #logo{
+	width: 200;
+		padding: 20;
+		
+        float:left; 
+
+		border-color: 5px orange;
+		margin: 0;
+		
+	
+	}
+     #slide1{
+	width: 10;
+	
+		background-color: orange;
+		float:left; 
+
+		border-color: 5px orange;
+		margin: 10;
+	}
+
+
+	
+
+     #slide2{
+	width: 300;
+	height: 500;
+		padding:10;
+		background-color: orange;
+		 float:right;
+
+
+		border-color: 5px white;
+		margin:1
+		border-bottom:2px solid black; 
+		;
+}
+
+        #slide3{
+	width: 300;
+	height: 500;
+		padding:10;
+		background-color: orange;
+		 float:right;
+
+
+		border-color: 5px white;
+		margin:1
+	
+		;
+
+}
+
+          #same{
+	
+	
+	display: inline-block;
+
+		border-color: 5px white;
+		margin:1
+	
+		;
+
+
+}
+
+div.tp
+     {width: 100;
+	height: 100;
+		padding:;
+		background-color: orange;
+		 float:left;
+
+
+		;
+}
+
+
+
+         #tp{
+	width: 100;
+	height: 300;
+		padding:0;
+		background-color:  orange;
+		 
+		  display: inline-block;
+
+
+		border-color: 5px white;
+		margin:1
+		;
+
+}
+    #p2{
+	width: 100;
+	height: 300;
+		padding:30;
+		background-color: orange;
+		 
+		   vertical-align: bottom;
+
+
+		border-color: 5px white;
+		margin:1
+		;
+}
+span.comment{
+
+width: 805;
+	height: 200;
+		padding:80px;
+		background-color: transparent;
+        position: ;
+        float: right;
+        margin: 3;
+
+}
+@media (max-width: 200em){
+
+div.imgholder{
+
+width: 320;
+	height: 200;
+		padding:80px;
+		background-color: orange;
+        position:relative;
+        float: right;
+        border: 1px solid black;
+        margin: 3;
+        border-color: white;
+        transition: ease-in 10s;
+
+}
+}
+}
+button{}

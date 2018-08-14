@@ -1,0 +1,189 @@
+<html>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+        <title>Feedback Form Using HTML, CSS And PHP - reusable form</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="form.css" >
+        <link rel ="stylesheet"
+type ="text/css"
+href = "genstylesheet.css">
+
+<script type="text/javascript" src= "jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src= "script.js"></script>
+      
+        <script src="form.js"></script>
+
+
+
+
+<body style="width: 950px">
+
+
+   
+    <div  id='same' style=" cursor: pointer; float: left;  "></div><div style="float: right; margin-right:10.0%; font-family: Candara ">Premier tour offers you the opportunity to experience some of the most memorable moments in your life  &nbsp &nbsp Contact: +233248677700    </div> 
+
+   
+        <img id=mb src="menubt.jpg" width="30px" height="20px"></div>
+    <hr style="position: static" > </hr>
+   
+      <script>
+$('#mb').click(function() {
+  var first = false;
+            var $sh = $('.sh');
+
+            if ($sh.is(':hidden')) {
+                // Slide away
+                $sh.animate({left: -($sh.outerWidth() + 10)}, function() {
+                    $sh.show();
+                });
+            }
+            else {
+                // Slide in
+                $sh.hide().css("left", -($sh.outerWidth() + 10)).animate({left: 0});
+            }
+            });
+
+
+
+</script>
+
+<ul style="background-color:" class=sh>
+  <li style="background-color:" class="try" onclick="location.href='homepage.html'">Home</li>
+  
+  <li style="background color:;" class="try" onclick="location.href='Gallery.html'">Gallery</li>
+</ul>
+
+ 
+<script>
+
+$( "li.try" ).hover(function() {
+ 
+  $( this ).next(2)
+          
+          .slideToggle();
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+	   </div>
+
+
+
+      <div class=image2>  </div>
+
+
+
+     <box>
+     <div  id=start>
+           <div  id=banner >   
+
+            <p style="color:black;font-family:courier new  ;font-size:80px;position:static;"> An amazing offer awaits you</p>
+
+       </div>
+
+ <div  id=start>
+
+<div  id=slide2 > <button style="border-color: black" id='copper'>Copper</button> <img class= pic src= "copper.jpg">
+
+
+<script>
+$('#copper').click(function() {
+
+            var $sh = $('.pic');
+        
+
+            if ($sh.is(':hidden')) {
+                // Slide away
+                $sh.animate({left: -($sh.outerWidth() + 10)}, function() {
+                    $sh.show();
+                });
+            }
+            else {
+                // Slide in
+                $sh.hide().css("left", -($sh.outerWidth() + 10)).animate({left: 0});
+            }
+            });
+</script>
+ 
+ </div>
+
+
+<div id=slide2 > <button style="border-color: black" id='silver'>Silver</button> <img class= pic1 src= "silver.jpg">
+
+<script>
+$('#silver').click(function() {
+
+            var $sh = $('.pic1');
+        
+
+            if ($sh.is(':hidden')) {
+                // Slide away
+                $sh.animate({left: -($sh.outerWidth() + 10)}, function() {
+                    $sh.show();
+                });
+            }
+            else {
+                // Slide in
+                $sh.hide().css("left", -($sh.outerWidth() + 10)).animate({left: 0});
+            }
+            });
+</script>
+ 
+ </div>
+<div id=slide2>  <button style="border-color: black" id= gold style="position: relative; size: 100px ">Gold</button><img class= pic2 src= "gold.jpg">
+ 
+      <script>
+
+$('#gold').click(function() {
+
+            var $sh = $('.pic2');
+        
+
+            if ($sh.is(':hidden')) {
+                // Slide away
+                $sh.animate({left: -($sh.outerWidth() + 10)}, function() {
+                    $sh.show();
+                });
+            }
+            else {
+                // Slide in
+                $sh.hide().css("left", -($sh.outerWidth() + 10)).animate({left: 0});
+            }
+            });
+</script>
+ </div>
+
+ <div id="banner" style="">
+                                <label style=" for="name"> Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            
+                                <label style= "position:relative;top: 20px;  for="email"> Email </label>
+                                <input style= "position:relative;top: 20px;left: 0px  type="email" class="form-control" id="email" name="email" required>
+                       
+                                <label style= "position:relative;top: 40px;  for="">Telephone</label>
+                                <input style= "position:relative;top: 40px;left: 30px class="form-control" id="telephone" name="telephone">
+                           
+                      
+                        
+                                <button  style= "position:relative;top: 60px; type="submit" class="btn btn-lg btn-warning btn-block"> <a href="tel:+233248677700">Simply call us/ Whatsapp +233248677700</button>
+                           
+
+                        
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Thanks, we would get back to you</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>

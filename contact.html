@@ -1,0 +1,58 @@
+<html>
+<link rel ="stylesheet"
+type ="text/css"
+href = "file:///C:/Users/Rodeas%20Limited/OneDrive/Xammp/htdocs/Sam/genstylesheet.css">
+
+<script type="text/javascript" src= "C:\Users\Rodeas Limited\OneDrive\Xammp\htdocs\jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src= "C:\Users\Rodeas Limited\OneDrive\Xammp\htdocs\sam\script.js"></script>
+
+
+
+<body>
+
+
+    <div id=image1> <img src="C:\Users\Rodeas Limited\OneDrive\Xammp\htdocs\sam\menubt.jpg" width="30px" height="20px" > </div>
+     <hr></hr>
+         
+       </div>
+
+
+      <script>
+$('#image1').click(function() {
+  var first = true;
+            var $sh = $('.sh');
+            if ($sh.is(':visible')) {
+                // Slide away
+                $sh.animate({left: -($sh.outerWidth() + 3)}, function() {
+                    $sh.hide();
+                });
+            }
+            else {
+                // Slide in
+                $sh.show().css("left", -($sh.outerWidth() + 10)).animate({left: 0});
+            }
+            });
+ </script>
+
+<ul class=sh>
+  <li class="fade" onclick="location.href='hp.html'">HOME</li>
+  <li class="fade" onclick="location.href='package.html'" >PACKAGE</li>
+  <li class="fade" onclick="location.href='about.html'">ABOUT</li>
+</ul>
+ 
+
+
+     <box>
+
+  <div  class="fade" id=slide1>  </div>
+    <div  class="fade" id=slide2>   </div>
+
+<input type="" name="full name">   </input> 
+
+<input  type="email" name="">   </input> 
+
+
+
+<textarea rows="10"  cols="40" ></textarea>
+<button></button>>
+
