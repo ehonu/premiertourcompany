@@ -39,6 +39,8 @@ position: inline-block;
 }
 
 
+
+
   body {background-image: 
     url("beach.jpg");
     background-size: cover;
@@ -73,6 +75,7 @@ position: inline-block;
     border-bottom:2px solid black; 
 }
 
+
 body {
 
 	background-color: white;
@@ -91,21 +94,26 @@ body {
 
 
 
-img.pic{
- 
+div.picholder{
+  
+border-color: 3px;
+border: solid black 5px;
 
 
-}
-img.pic1{
- 
 
-
-}
-img.pic2{
- 
 
 
 }
+
+#pic{
+ 
+transition: ;
+display: inline-block;
+
+margin-right: 500px
+
+}
+
 
 }
 
